@@ -1,0 +1,22 @@
+[project]
+name = "pymc-distribution-visualizer"
+version = "0.1.0"
+description = "A simple PyMC distribution visualizer with ASCII histogram"
+requires-python = ">=3.11"
+dependencies = [
+    "pymc>=5.1.2",
+    "numpy>=1.22.0",
+    "arviz>=0.14.0",
+]
+
+[project.scripts]
+visualize = "app.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["app*"]
+namespaces = false
