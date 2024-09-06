@@ -8,9 +8,9 @@ It does this by taking draws from the distributions and building a histogram.
 
 The histogram is sort of animated so it doesn't draw in the blink of an eye.
 
-![normal distribution](./images/normal.png)
+![normal distribution](./docs/images/normal.png)
 
-![mixture distribution](./images/mixture.png)
+![mixture distribution](./docs/images/mixture.png)
 
 ## PyMC
 
