@@ -5,7 +5,6 @@ import sys
 
 import pymc as pm
 import numpy as np
-import arviz as az
 
 SPACE = ' '
 BAR_MARK = '#'
